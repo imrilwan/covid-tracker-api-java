@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: COVID-TRACKER
+
+server:
+  port: 12000
+  servlet:
+    context-path: /covid-tracker
+
+covidtracker:
+  feign:
+    healthPromotionBureau:
+      url: https://hpb.health.gov.lk
